@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
-# Sample dataset (replace this with actual GTD data for real use)
+
 data = pd.DataFrame({
     'region': ['South Asia', 'Middle East', 'South Asia', 'Sub-Saharan Africa', 'South Asia'],
     'weapon_type': ['Explosives', 'Firearms', 'Explosives', 'Melee', 'Firearms'],
