@@ -1,0 +1,101 @@
+region,weapon_type,attack_type
+South Asia,Chemical,Assassination
+Europe,Explosives,Assassination
+Middle East,Chemical,Armed Assault
+North America,Melee,Bombing
+North America,Explosives,Hijacking
+Europe,Explosives,Hijacking
+South Asia,Chemical,Hijacking
+South Asia,Explosives,Assassination
+Middle East,Firearms,Assassination
+Europe,Explosives,Hostage Taking
+Sub-Saharan Africa,Incendiary,Hostage Taking
+Middle East,Melee,Armed Assault
+North America,Explosives,Hostage Taking
+South Asia,Explosives,Hostage Taking
+Middle East,Firearms,Hostage Taking
+Europe,Explosives,Armed Assault
+Middle East,Explosives,Assassination
+North America,Firearms,Bombing
+South Asia,Firearms,Hijacking
+Middle East,Melee,Hijacking
+North America,Explosives,Assassination
+Europe,Incendiary,Armed Assault
+Sub-Saharan Africa,Melee,Hijacking
+Sub-Saharan Africa,Firearms,Assassination
+Europe,Explosives,Bombing
+Sub-Saharan Africa,Chemical,Bombing
+South Asia,Incendiary,Armed Assault
+Sub-Saharan Africa,Melee,Assassination
+North America,Incendiary,Hijacking
+Europe,Firearms,Bombing
+South Asia,Melee,Bombing
+Europe,Chemical,Assassination
+North America,Incendiary,Hijacking
+Middle East,Chemical,Assassination
+Middle East,Explosives,Assassination
+Sub-Saharan Africa,Explosives,Bombing
+Europe,Firearms,Hijacking
+Sub-Saharan Africa,Incendiary,Armed Assault
+Europe,Melee,Hijacking
+Sub-Saharan Africa,Explosives,Armed Assault
+North America,Chemical,Assassination
+Europe,Chemical,Assassination
+Europe,Melee,Assassination
+Sub-Saharan Africa,Incendiary,Assassination
+North America,Melee,Hostage Taking
+Middle East,Chemical,Assassination
+Middle East,Explosives,Hijacking
+Middle East,Melee,Hostage Taking
+North America,Explosives,Armed Assault
+North America,Melee,Armed Assault
+South Asia,Incendiary,Armed Assault
+Europe,Chemical,Hijacking
+Middle East,Chemical,Assassination
+North America,Explosives,Hostage Taking
+Sub-Saharan Africa,Firearms,Hijacking
+North America,Chemical,Assassination
+Middle East,Firearms,Armed Assault
+South Asia,Chemical,Hostage Taking
+Sub-Saharan Africa,Firearms,Bombing
+Sub-Saharan Africa,Melee,Hostage Taking
+Europe,Chemical,Assassination
+South Asia,Firearms,Hijacking
+Middle East,Firearms,Assassination
+Middle East,Explosives,Assassination
+South Asia,Explosives,Armed Assault
+Sub-Saharan Africa,Incendiary,Hijacking
+Sub-Saharan Africa,Chemical,Hostage Taking
+South Asia,Firearms,Armed Assault
+Sub-Saharan Africa,Firearms,Armed Assault
+South Asia,Incendiary,Armed Assault
+Europe,Incendiary,Hostage Taking
+Middle East,Chemical,Assassination
+Sub-Saharan Africa,Firearms,Armed Assault
+North America,Firearms,Armed Assault
+Middle East,Firearms,Hostage Taking
+Middle East,Chemical,Hostage Taking
+North America,Explosives,Hostage Taking
+Sub-Saharan Africa,Incendiary,Bombing
+South Asia,Incendiary,Assassination
+North America,Firearms,Assassination
+North America,Melee,Hostage Taking
+Europe,Explosives,Hostage Taking
+Sub-Saharan Africa,Melee,Hostage Taking
+Middle East,Incendiary,Assassination
+Europe,Chemical,Hostage Taking
+South Asia,Chemical,Bombing
+South Asia,Firearms,Hijacking
+South Asia,Melee,Bombing
+South Asia,Explosives,Armed Assault
+Middle East,Incendiary,Hostage Taking
+Middle East,Melee,Hijacking
+South Asia,Explosives,Hijacking
+Sub-Saharan Africa,Incendiary,Assassination
+Europe,Chemical,Hijacking
+North America,Explosives,Armed Assault
+South Asia,Explosives,Hijacking
+Europe,Incendiary,Hostage Taking
+Middle East,Firearms,Hostage Taking
+Europe,Incendiary,Hijacking
+Middle East,Firearms,Hijacking
