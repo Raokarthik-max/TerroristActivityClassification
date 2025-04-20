@@ -9,7 +9,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Load the dataset
-data = pd.read_csv('terrorism_synthetic_data.csv')
+data = pd.read_csv('terrorism_data_large.csv')
 
 # Initial Data Exploration
 print("First 5 Rows of the Dataset:\n", data.head())
