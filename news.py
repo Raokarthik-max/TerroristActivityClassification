@@ -1,6 +1,9 @@
+import feedparser
 import pandas as pd
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
+import matplotlib.pyplot as plt
+import seaborn as sns
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 
 nltk.download('vader_lexicon')
@@ -9,30 +12,44 @@ nltk.download('vader_lexicon')
 sia = SentimentIntensityAnalyzer()
 
 
-headlines = [
-    "Stock markets rally as tech shares surge",
-    "Global economic outlook worsens due to conflict",
-    "New innovation in AI brings hope to healthcare",
-    "Unemployment rates continue to rise in urban areas",
-    "Company X reports record profits for the second quarter",
-    "Severe weather causes damage across the Midwest"
-]
+rss_url = 'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en'
+feed = feedparser.parse(rss_url)
+
+
+headlines = [entry.title for entry in feed.entries]
 
 
 data = []
 for headline in headlines:
-    scores = sia.polarity_scores(headline)
-    compound = scores['compound']
-    if compound >= 0.05:
-        sentiment = "Positive"
-    elif compound <= -0.05:
-        sentiment = "Negative"
-    else:
-        sentiment = "Neutral"
-    data.append({'Headline': headline, 'Compound Score': compound, 'Sentiment': sentiment})
+    score = sia.polarity_scores(headline)
+    compound = score['compound']
+    sentiment = "Positive" if compound >= 0.05 else "Negative" if compound <= -0.05 else "Neutral"
+    data.append({
+        'Headline': headline,
+        'Compound Score': compound,
+        'Sentiment': sentiment
+    })
 
 
 df = pd.DataFrame(data)
 
 
-print(df)
+print(df.head())
+
+
+plt.figure(figsize=(8, 5))
+sns.countplot(x='Sentiment', data=df, palette='coolwarm')
+plt.title('Sentiment Distribution of News Headlines')
+plt.xlabel('Sentiment')
+plt.ylabel('Count')
+plt.tight_layout()
+plt.show()
+
+
+plt.figure(figsize=(10, 6))
+sns.histplot(df['Compound Score'], bins=20, kde=True, color='skyblue')
+plt.title('Distribution of Compound Sentiment Scores')
+plt.xlabel('Compound Score')
+plt.ylabel('Frequency')
+plt.tight_layout()
+plt.show()
